@@ -1,0 +1,52 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 204);
+    padding: 12px 15px;
+    text-align: center;
+    align-items: center;
+}
+nav .title {
+    color: white;
+    font-size: 1.5rem;
+}
+nav input[type=search] {
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all 0.5 ease;
+}
+nav input[type=search]:focus {
+    border: 2px solid #ccc;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+}
+
+.card-header {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+.card-detils {
+    padding: 10px;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
